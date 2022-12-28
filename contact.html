@@ -90,14 +90,14 @@
 
     <h2>"<br />"</h2>
 
-        <!-- Start Map section -->
-        <section class="mapSection m-0">
-            <iframe class="w-100"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d627723.3889859769!2d3.283322499999995!3d52.07892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b70570f40931%3A0x289e2a73a8d13451!2sHotel%20NH%20Den%20Haag!5e0!3m2!1sen!2sid!4v1672221234576!5m2!1sen!2sid"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <!-- End Section Map -->
+    <!-- Start Map section -->
+    <section class="mapSection m-0">
+        <iframe class="w-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d627723.3889859769!2d3.283322499999995!3d52.07892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b70570f40931%3A0x289e2a73a8d13451!2sHotel%20NH%20Den%20Haag!5e0!3m2!1sen!2sid!4v1672221234576!5m2!1sen!2sid"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- End Section Map -->
 
     <!-- Start contact Form-->
     <section class="contact-form my-5">
@@ -158,6 +158,73 @@
         </div>
     </section>
     <!-- End Contact Form -->
+
+    <!-- Reservation Pop up -->
+
+    <div class="container popup">
+        <!-- Modal -->
+        <div class="modal fade" id="mypopup" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Reservation</h4>
+                        <button type="button" class="close" data-dismiss="modal">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="w-100">
+                            <div class="row">
+                                <div class="col-md-6 inputBox my-3">
+                                    <label class="d-block">Name</label>
+                                    <input class="w-100" type="text" name="name" />
+                                </div>
+                                <div class="col-md-6 inputBox my-3">
+                                    <label class="d-block">Phone</label>
+                                    <input class="w-100" type="number" name="phone" />
+                                </div>
+                                <div class="col-md-12 inputBox my-3">
+                                    <label class="d-block">Email</label>
+                                    <input class="w-100" type="email" name="email" />
+                                </div>
+                                <div class="col-md-6 inputBox my-3">
+                                    <label class="d-block">Date Check in</label>
+                                    <input class="w-100" type="date" name="check_data_in" />
+                                </div>
+                                <div class="col-md-6 inputBox my-3">
+                                    <label class="d-block">Date Check Out</label>
+                                    <input class="w-100" type="date" name="check_data_out" />
+                                </div>
+                                <div class="col-md-6 inputBox my-3">
+                                    <label class="d-block">Adult</label>
+                                    <input class="w-100" type="number" value="1" name="adult" />
+                                </div>
+                                <div class="col-md-6 inputBox my-3">
+                                    <label class="d-block">Children</label>
+                                    <input class="w-100" type="number" value="1" name="children" />
+                                </div>
+                                <div class="col-md-12 textareaBox my-3">
+                                    <label class="d-block">Notes</label>
+                                    <textarea class="w-100"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="reservation mb-sm-4">
+                                Make a Reservation
+                            </button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Reservation Pop up -->
 
     <!-- Start Footer -->
     <footer class="text-sm-center text-md-left">

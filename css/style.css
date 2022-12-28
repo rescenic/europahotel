@@ -20,7 +20,7 @@ body {overflow-x: hidden}
     outline: none;
 }
 .reservation:hover {
-    color: #454545;
+    color: gold;
     background: transparent;
 }
 .text-main-color {color: #999}
@@ -60,7 +60,7 @@ header  .navbar-nav ul li.active:before {
     height: 8px;
     position: absolute;
     background: #454545;
-    color: #454545;
+    color: gold;
     top: 35px;
     left: 27px;
     border-radius: 50%;
@@ -71,7 +71,7 @@ header  nav ul li a {
     font-size: 18px;
 }
 header  .navbar-nav ul li.active a,
-header .navbar-nav ul li a:hover {color: #454545 !important}
+header .navbar-nav ul li a:hover {color: yellow !important}
 
 @media (max-width: 991px) {
     header  nav ul li { 
@@ -214,25 +214,6 @@ header .navbar-nav ul li a:hover {color: #454545 !important}
 .guestbook .person .info span {color: #454545}
 /* End Guestbook */
 
-/* Start Video Description */
-.video_description {
-    position: relative;
-
-    margin-bottom: 450px;
-}
-.video_description img {
-    width: 100%;
-}
-.video_description iframe {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    width: 80%;
-    height: 500px;
-    transform: translateX(-50%)
-}
-/* End Video Description */
-
 /* Start customers love */
 .customerslove {
     margin: 80px 0;
@@ -269,11 +250,11 @@ footer p {
     margin: 30px 0;
 }
 footer p i {
-    color: #454545;
+    color: #d2d2d2;
     margin-right: 10px;
 }
 footer h3 {
-    color: #454545;
+    color: #d2d2d2;
     font-size: 20px;
     font-weight: normal;
     margin-bottom: 60px

@@ -1,324 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Europa - Contact Us</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        />
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <!-- Start Header -->
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <div class="logo">
-                    <a class="navbar-brand" href="#"
-                        ><img src="images/logo.jpg"
-                    /></a>
-                </div>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <ul>
-                            <li>
-                                <a class="nav-item nav-link" href="index.html"
-                                    >Home
-                                    <span class="sr-only">(current)</span></a
-                                >
-                            </li>
-                            <li>
-                                <a class="nav-item nav-link" href="about.html"
-                                    >About</a
-                                >
-                            </li>
-                            <li>
-                                <a class="nav-item nav-link" href="rooms.html"
-                                    >Rooms</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    class="nav-item nav-link"
-                                    href="services.html"
-                                    >Services</a
-                                >
-                            </li>
-                            <li class="active">
-                                <a class="nav-item nav-link" href="contact.html"
-                                    >Contact</a
-                                >
-                            </li>
-                        </ul>
-                        <button
-                            class="reservation p-3"
-                            data-toggle="modal"
-                            data-target="#mypopup"
-                        >
-                            Make a Reservation
-                        </button>
-                    </div>
-                </div>
-            </nav>
 
-            <div class="banner">
-                <div class="overlay">
-                    <h2 class="display-4">A Luxary Stay</h2>
-                    <form class="container reserve">
-                        <h4 class="text-light">Check Availability</h4>
-                        <div class="row d-flex justify-content-around">
-                            <div
-                                class="inputBox col-md-5 col-lg-2 form-group pt-2"
-                            >
-                                <label
-                                    class="d-block text-dark mb-3 font-weight-bold"
-                                    >From</label
-                                >
-                                <input
-                                    class="w-100"
-                                    type="date"
-                                    name="startDate"
-                                />
-                                <hr />
-                            </div>
-                            <div
-                                class="inputBox col-md-5 col-lg-2 ml-sm-0 ml-md-2 ml-3 form-group pt-2"
-                            >
-                                <label
-                                    class="d-block text-dark mb-3 font-weight-bold"
-                                    >To</label
-                                >
-                                <input
-                                    class="w-100"
-                                    type="date"
-                                    name="endDate"
-                                />
-                                <hr />
-                            </div>
-                            <div
-                                class="inputBox col-lg-3 col-md-5 ml-md-0 ml-lg-3 form-group pt-2"
-                            >
-                                <div class="box w-25 d-inline-block">
-                                    <label
-                                        class="d-block text-dark mb-3 font-weight-bold"
-                                        >Adults</label
-                                    >
-                                    <input
-                                        class="w-100"
-                                        type="number"
-                                        name="adult"
-                                        value="0"
-                                    />
-                                    <hr />
-                                </div>
-                                <div class="box w-25 d-inline-block ml-3">
-                                    <label
-                                        class="d-block text-dark mb-3 font-weight-bold"
-                                        >Children</label
-                                    >
-                                    <input
-                                        class="w-100"
-                                        type="number"
-                                        name="adult"
-                                        value="0"
-                                    />
-                                    <hr />
-                                </div>
-                                <div class="box w-25 d-inline-block ml-3">
-                                    <label
-                                        class="d-block text-dark mb-3 font-weight-bold"
-                                        >Rooms</label
-                                    >
-                                    <input
-                                        class="w-100"
-                                        type="number"
-                                        name="adult"
-                                        value="0"
-                                    />
-                                    <hr />
-                                </div>
-                            </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Europa - Contact Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
 
-                            <div
-                                class="inputBox col-lg-3 col-md-5 ml-sm-0 ml-md-2 ml-3 form-group pt-2"
-                            >
-                                <label
-                                    class="d-block text-dark mb-3 font-weight-bold"
-                                    >Room</label
-                                >
-                                <input
-                                    class="w-100"
-                                    type="text"
-                                    placeholder="EG. master Suite"
-                                    name="endDate"
-                                />
-                                <hr />
-                            </div>
-
-                            <button
-                                type="submit"
-                                class="reservation col-lg-1 ml-3 form-group w-25"
-                            >
-                                GO
-                            </button>
-                        </div>
-                    </form>
+<body>
+    <!-- Start Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="logo">
+                <a class="navbar-brand" href="#"><img src="images/logo.jpg" /></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <ul>
+                        <li>
+                            <a class="nav-item nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a class="nav-item nav-link" href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a class="nav-item nav-link" href="rooms.html">Rooms</a>
+                        </li>
+                        <li>
+                            <a class="nav-item nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="active">
+                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="reservation p-3" data-toggle="modal" data-target="#mypopup">
+                        Make a Reservation
+                    </button>
                 </div>
             </div>
-        </header>
-        <!-- End Header -->
+        </nav>
 
-        <!-- Start contact Form-->
-        <section class="contact-form my-5">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-sm-8">
-                        <span class="text-uppercase text-main-color"
-                            >A memorable history</span
-                        >
-                        <h2 class="w-sm-75">
-                            Located in the center of Los Angles
-                        </h2>
-                    </div>
-                    <div class="col-sm-4">
-                        <button class="reservation">Get Directions</button>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-7">
-                        <form class="form-group">
-                            <div class="inputBox d-inline-block my-3">
-                                <input
-                                    class="p-2 w-100"
-                                    type="text"
-                                    name="name"
-                                />
-                                <label for="" class="d-block">Your Name</label>
-                            </div>
-                            <div class="inputBox d-inline-block my-3">
-                                <input
-                                    class="p-2 w-100"
-                                    type="email"
-                                    name="email"
-                                />
-                                <label class="d-block">Enter Email</label>
-                            </div>
-                            <div class="inputBox my-4">
-                                <input
-                                    class="d-block w-100 w-100"
-                                    type="text"
-                                    name="subject"
-                                />
-                                <label class="d-block">Your Subject</label>
-                            </div>
-                            <div class="textareaBox my-5">
-                                <textarea class="w-100 p-2"></textarea>
-                                <label class="d-block">Your Message</label>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="info text-center">
-                            <img
-                                class="d-inline-block my-4"
-                                src="images/contact-logo.png"
-                            />
-                            <p>
-                                1525 madision lane,<span class="d-block"
-                                    >Los Angles, CA</span
-                                >
-                            </p>
-                            <p class="my-4">+1 (603)535-4592</p>
-                            <p class="my-4">hello@yourmail.com</p>
-                            <p class="my-4">Everyday: 06:00 -22:00</p>
-                            <div
-                                class="social-media my-4 d-flex justify-content-between"
-                            >
-                                <i class="fab fa-facebook"></i>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-linkedin"></i>
-                                <i class="fab fa-pinterest"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-youtube"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- <div class="banner">
+            <div class="overlay">
+                
             </div>
-        </section>
-        <!-- End Contact Form -->
+        </div> -->
+    </header>
+    <!-- End Header -->
+
+    <h2>"<br />"</h2>
 
         <!-- Start Map section -->
         <section class="mapSection m-0">
-            <iframe
-                class="w-100"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d440298.5039227765!2d31.40226386733948!3d30.440862313836718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1603452993473!5m2!1sar!2seg"
-                width="600"
-                height="450"
-                frameborder="0"
-                style="border: 0"
-                allowfullscreen=""
-                aria-hidden="false"
-                tabindex="0"
-            ></iframe>
+            <iframe class="w-100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d627723.3889859769!2d3.283322499999995!3d52.07892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b70570f40931%3A0x289e2a73a8d13451!2sHotel%20NH%20Den%20Haag!5e0!3m2!1sen!2sid!4v1672221234576!5m2!1sen!2sid"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
         <!-- End Section Map -->
 
-        <!-- Start Footer -->
-        <footer class="text-sm-center text-md-left">
-            <div class="container overflow-hidden">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <a href="#"><img src="images/logo.jpg" /></a>
+    <!-- Start contact Form-->
+    <section class="contact-form my-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-sm-8">
+                    <span class="text-uppercase text-main-color">A memorable history</span>
+                    <h2 class="w-sm-75">
+                        Set on the top floors of the World Trade Center
+                    </h2>
+                </div>
+                <div class="col-sm-4">
+                    <button class="reservation">Get Directions</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-7">
+                    <form class="form-group">
+                        <div class="inputBox d-inline-block my-3">
+                            <input class="p-2 w-100" type="text" name="name" />
+                            <label for="" class="d-block">Your Name</label>
+                        </div>
+                        <div class="inputBox d-inline-block my-3">
+                            <input class="p-2 w-100" type="email" name="email" />
+                            <label class="d-block">Enter Email</label>
+                        </div>
+                        <div class="inputBox my-4">
+                            <input class="d-block w-100 w-100" type="text" name="subject" />
+                            <label class="d-block">Your Subject</label>
+                        </div>
+                        <div class="textareaBox my-5">
+                            <textarea class="w-100 p-2"></textarea>
+                            <label class="d-block">Your Message</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="info text-center">
+                        <img class="d-inline-block my-4" src="images/contact-logo.png" />
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Provident saepe nam corporis quisquam. Quo
-                            nesciunt incidunt laborum quod, earum magni.
+                            Pr. Margrietplantsoen 100, 2595 BR<span class="d-block">Den Haag, Netherlands</span>
                         </p>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <h3 class="mt-sm-4 mb-sm-3">Newletter</h3>
-                        <form class="position-relative form-group">
-                            <input
-                                type="text"
-                                name="email"
-                                placeholder="Your Email Here"
-                            />
-                            <input type="submit" value="submit" name="submit" />
-                        </form>
-                    </div>
-                    <div class="col-md-12 col-lg-4 mt-md-3">
-                        <h3 class="mt-sm-4 mb-sm-0 mb-md-1">Contact Info</h3>
-                        <p class="my-sm-2">
-                            <i class="fa fa-map-marker"></i>
-                            1525 Boring Lane, Los Angeles, CA
-                        </p>
-                        <p class="my-sm-2">
-                            <i class="fa fa-phone"></i>
-                            +1(603)535-4592
-                        </p>
+                        <p class="my-4">+31703812345</p>
+                        <p class="my-4">admin@europahotel.netlify.app</p>
+                        <p class="my-4">Everyday: 06:00 -22:00</p>
+                        <div class="social-media my-4 d-flex justify-content-between">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-pinterest"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-youtube"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- End Footer -->
+        </div>
+    </section>
+    <!-- End Contact Form -->
 
-        <script src="js/jquery-3.5.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+    <!-- Start Footer -->
+    <footer class="text-sm-center text-md-left">
+        <div class="container overflow-hidden">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <a href="#"><img src="images/logo.jpg" /></a>
+                    <p>
+                        Set on the top floors of the World Trade Center, this stylish hotel is a 3-minute walk from a
+                        tram stop, and 2.1 km from both the Escher in Het Paleis museum and the Gothic-style Binnenhof
+                        complex.
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h3 class="mt-sm-4 mb-sm-3">Newletter</h3>
+                    <form class="position-relative form-group">
+                        <input type="text" name="email" placeholder="Your Email Here" />
+                        <input type="submit" value="Submit" name="submit" />
+                    </form>
+                </div>
+                <div class="col-md-12 col-lg-4 mt-md-3">
+                    <h3 class="mt-sm-4 mb-sm-0 mb-md-1">Contact Info</h3>
+                    <p class="my-sm-2">
+                        <i class="fa fa-map-marker"></i>
+                        Pr. Margrietplantsoen 100, 2595 BR Den Haag, Netherlands
+                    </p>
+                    <p class="my-sm-2">
+                        <i class="fa fa-phone"></i>
+                        +31703812345
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
 </html>

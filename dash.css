@@ -41,7 +41,7 @@ body {
 
 .sidebar li.active {
     font-size: 22px;
-    color: #f9ad81;
+    color: gold;
 }
 
 .sidebar li:hover i {
@@ -49,14 +49,14 @@ body {
 }
 
 .sidebar li:hover {
-    color: #f9ad81;
+    color: yellow;
 }
 
 .sidebar li:after {
     content: "";
     width: 90px;
     height: 3px;
-    /* box-shadow: 0 0 5px #f9ad81c9; */
+    /* box-shadow: 0 0 5px #454545c9; */
     background: linear-gradient(#ffc4a1, #646464);
     display: inline-block;
     position: absolute;
@@ -74,7 +74,7 @@ body {
 }
 
 .dash_content button.add {
-    background: #f9ad81;
+    background: #454545;
     padding: 5px 15px;
     border: none;
     outline: none;
